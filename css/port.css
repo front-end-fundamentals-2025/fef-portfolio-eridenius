@@ -2,8 +2,16 @@
 .port-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 2fr 1fr;
 }
 
 img {
   width: 100%;
+}
+
+/* background colors */
+
+body {
+  background-color: black;
+  color: red;
 }

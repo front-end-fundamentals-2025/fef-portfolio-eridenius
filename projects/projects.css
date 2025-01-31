@@ -1,0 +1,34 @@
+body {
+  color: red;
+  background-color: black;
+  text-align: left;
+  font-size: large;
+}
+
+/*project images*/
+.daftlarge {
+  width: 82%;
+}
+
+.projtrain {
+  width: 70%;
+}
+
+.snusproj {
+  width: 80%;
+}
+
+.grateimg {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+}
+
+.grateimg img {
+  max-width: 30%;
+  height: auto;
+}
+
+.darkguy {
+  width: 60%;
+}

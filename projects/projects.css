@@ -20,13 +20,14 @@ body {
 
 .grateimg {
   display: flex;
-  justify-content: center;
   gap: 2em;
 }
 
 .grateimg img {
+  /*Used chatgpt to keep the proportions*/
+  width: 100%;
   max-width: 30%;
-  height: auto;
+  object-fit: cover;
 }
 
 .darkguy {

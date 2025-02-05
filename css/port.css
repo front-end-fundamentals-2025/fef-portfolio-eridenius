@@ -38,3 +38,9 @@ body {
   background-color: black;
   color: red;
 }
+
+/*text size adjust*/
+
+h1 {
+  font-size: 2em;
+}

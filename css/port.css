@@ -1,9 +1,31 @@
 /* images */
+
+/*default size*/
 .port-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 2fr 1fr;
   gap: 2em;
+}
+/* mid-size */
+@media (max-width: 900px) {
+  .port-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr 1fr;
+    gap: 2em;
+  }
+}
+
+/* smallest size*/
+
+@media (max-width: 600px) {
+  .port-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 1fr;
+    gap: 2em;
+  }
 }
 
 img {

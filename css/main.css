@@ -37,6 +37,8 @@ a {
 
 /*animations*/
 
+
+
 @keyframes color-animation {
   from {
     transform: translate(900px, -100px);

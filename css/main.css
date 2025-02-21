@@ -16,6 +16,14 @@ body {
   background-color: white;
 }
 
+p {
+  color: black;
+}
+
+h1 {
+  color: black;
+}
+
 .selfie {
   width: 10%;
   border-radius: 50px;

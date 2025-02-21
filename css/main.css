@@ -12,6 +12,10 @@ a {
   color: green;
 }
 
+body {
+  background-color: white;
+}
+
 .selfie {
   width: 10%;
   border-radius: 50px;
@@ -37,28 +41,26 @@ a {
 
 /*animations*/
 
-
-
-@keyframes color-animation {
+@keyframes movement-animation {
   from {
-    transform: translate(900px, -100px);
+    transform: translate(620px, -100px);
   }
   to {
-    transform: translate(900px, -500px);
+    transform: translate(620px, -500px);
   }
-}
-
-.ball {
-  animation-name: color-animation;
-  animation-duration: 2s;
-  animation-timing-function: easeInBounce;
-  animation-delay: 1s;
-  animation-iteration-count: 10;
-  animation-direction: alternate;
-  transform: translate(900px, -100px);
 }
 
 .trampoline {
   width: 25%;
-  transform: translate(620px, 40px);
+  transform: translate(900px, 40px);
+}
+
+.gubbe {
+  animation-name: movement-animation;
+  animation-duration: 2s;
+  animation-timing-function: easeInBounce;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  transform: translate(620px, -100px);
 }

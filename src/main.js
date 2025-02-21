@@ -1,11 +1,23 @@
-const button = document.getElementById("my-button");
+const purpleButton = document.getElementById("purple-button"); // got a little help from nicolai with hidinng buttons
+const whiteButton = document.getElementById("white-button");
 
-button.addEventListener("click", doSomething);
+purpleButton.style.display = "block";
+whiteButton.style.display = "none";
 
-function doSomething() {
-  if ((document.body.style.backgroundColor = "white")) {
-    document.body.style.backgroundColor = "purple";
-  }
+purpleButton.addEventListener("click", purpleClick);
+whiteButton.addEventListener("click", whiteClick);
 
-  //document.body.style.backgroundColor = "purple";
+function purpleClick() {
+  document.body.style.backgroundColor = "purple";
+  document.body.style.color = "white";
+
+  purpleButton.style.display = "none";
+  whiteButton.style.display = "block";
+}
+function whiteClick() {
+  document.body.style.backgroundColor = "white";
+  document.body.style.color = "black";
+
+  whiteButton.style.display = "none";
+  purpleButton.style.display = "block";
 }
